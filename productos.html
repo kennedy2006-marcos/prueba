@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="productos.css">
+    <script src="productos.js" async></script>
+    <title>Tienda de Relojes | </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte de mi tierra - Artesanías Mexicanas</title>
+    <link rel="icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <b><a href="index.html"><img src="assets/images/logo.png" white="80px" height="80px"> </a></b>
+            <div class="nav-links">
+                <!-- Agregamos el buscador aquí -->
+                <div class="search-container">
+                    <form id="searchForm">
+                        <input type="text" placeholder="Buscar productos..." id="searchInput">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="#ofertas">Ofertas</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="#" class="cart"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+            <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+    <section class="contenedor">
+        <!-- Contenedor de elementos -->
+        <div class="contenedor-items">
+            <div class="item">
+                <span class="titulo-item">Huipil Itsmeño</span>
+                <img src="producto img/prod1.jpeg" alt="" class="img-item">
+                <h4><center>Hecho a mano por artesana muejeres</center></h4>
+                <span class="precio-item">$31,098.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Huiplil Tuxtepec</span>
+                <img src="producto img/prod5.jpeg" alt="" class="img-item">
+                <h4><center>Hecho a mano </center></h4>
+                <span class="precio-item">$5,900.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Alebrije</span>
+                <img src="producto img/Product1a.png" alt="" class="img-item">
+                <h4><center>Hecho de manera de copal</center></h4>
+                <span class="precio-item">$3,005.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Artesania de barro</span>
+                <img src="producto img/prod4.jpeg" alt="" class="img-item">
+                 <h4><center>Artesania de barro negro</center></h4>
+                <span class="precio-item">$1,800.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Olla</span>
+                <img src="producto img/prod6.jpeg" alt="" class="img-item">
+                <h4><center>Olla hecha de barro verde</center></h4>
+                <span class="precio-item">$3,200.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Filigrana</span>
+                <img src="producto img/producto7.jpeg" alt="" class="img-item">
+                <h4><center>Hecha con oro de 14k</center></h4>
+                <span class="precio-item">$6,890.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Chaquira</span>
+                <img src="producto img/producto8.jpeg" alt="" class="img-item">
+                <h4><center>Elaborado con cuentas de vidro en patrones tradicionales</center></h4>
+                <span class="precio-item">$5,399.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+            <div class="item">
+                <span class="titulo-item">Canasto</span>
+                <img src="producto img/producto9.jpeg" alt="" class="img-item">
+                <h4><center>Elabrorado con ojas de palma</center></h4>
+                <span class="precio-item">$320.000</span>
+                <button class="boton-item">Agregar al Carrito</button>
+            </div>
+           
+        </div>
+        <!-- Carrito de Compras -->
+        <div class="carrito" id="carrito">
+            <div class="header-carrito">
+                <h2>Tu Carrito</h2>
+            </div>
+
+            <div class="carrito-items">
+            
+            </div>
+            <div class="carrito-total">
+                <div class="fila">
+                    <strong>Tu Total</strong>
+                    <span class="carrito-precio-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pagar">Pagar <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer-columns">
+            <div class="footer-col">
+                <h4>Empresa</h4>
+                <a href="#">Sobre Nosotros</a>
+                <a href="#">Trabaja con Nosotros</a>
+                <a href="#">Sostenibilidad</a>
+            </div>
+            <div class="footer-col">
+                <h4>Atención al Cliente</h4>
+                <a href="#">Contacto</a>
+                <a href="#">Envíos</a>
+                <a href="#">Devoluciones</a>
+            </div>
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>

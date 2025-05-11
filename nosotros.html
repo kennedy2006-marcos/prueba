@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte de mi tierra - Artesanías Mexicanas</title>
+    <link rel="icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="style.css" href="nosotros.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <b><a href="index.html"><img src="assets/images/logo.png" white="80px" height="80px"> </a></b>
+            <div class="nav-links">
+                <!-- Agregamos el buscador aquí -->
+                <div class="search-container">
+                    <form id="searchForm">
+                        <input type="text" placeholder="Buscar productos..." id="searchInput">
+                        <button type="submit"><i class="fas fa-search"></i></button>
+                    </form>
+                </div>
+                <a href="index.html">Inicio</a>
+                <a href="productos.html">Productos</a>
+                <a href="#ofertas">Ofertas</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="#" class="cart"><i class="fas fa-shopping-bag"></i></a>
+            </div>
+            <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="nosotros">
+          <h1>Arte de mi Tierra</h1>
+          <p>
+            En <strong>Arte de mi Tierra</strong>, creemos en el poder de las manos oaxaqueñas y en el valor de cada pieza artesanal que narra la historia de nuestro estado. Somos una plataforma dedicada a apoyar a los artesanos locales que, a pesar de su talento y tradición, enfrentan barreras para comercializar sus productos en mercados más amplios.
+          </p>
+          <p>
+            Nuestra misión es facilitar la distribución, venta y exportación de artesanías oaxaqueñas, conectando directamente a los creadores con compradores en todo México y el mundo. A través de nuestra página web, brindamos un espacio accesible para mostrar sus productos, compartir sus historias y crecer económicamente.
+          </p>
+          <p>
+            Trabajamos bajo los principios de <em>comercio justo</em>, <em>preservación cultural</em> y <em>empoderamiento comunitario</em>. Cada venta es una oportunidad para sostener una tradición, fortalecer la economía local y llevar un pedazo de Oaxaca al mundo.
+          </p>
+          <p><strong>¡Únete y sé parte de esta comunidad que celebra la tradición con orgullo y elegancia!</strong></p>
+        </div>
+      </section>
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Open+Sans&display=swap');
+        
+        body {
+          margin: 0;
+          padding: 0;
+          background-color: #f2efea;
+          font-family: 'Open Sans', sans-serif;
+        }
+        
+        .hero {
+          background: linear-gradient(to right, #f9f4f0, #f1e8de);
+          padding: 80px 20px;
+          display: flex;
+          justify-content: center;
+        }
+        
+        .nosotros {
+          max-width: 900px;
+          background: #ffffff;
+          padding: 50px;
+          border-radius: 25px;
+          box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+          border: 2px solid #d1b47f; /* toque dorado */
+        }
+        
+        .nosotros h1 {
+          font-family: 'Playfair Display', serif;
+          font-size: 40px;
+          margin-bottom: 25px;
+          color: #6d4c41;
+          text-align: center;
+          border-bottom: 2px solid #d1b47f;
+          padding-bottom: 10px;
+        }
+        
+        .nosotros p {
+          font-size: 18px;
+          line-height: 1.8;
+          color: #444;
+          margin-bottom: 20px;
+        }
+        
+        .nosotros strong {
+          color: #a0743c;
+        }
+        
+        .nosotros em {
+          font-style: italic;
+          color: #7a5d44;
+        }
+        </style>
+
+    <!-- Pie de Página -->
+    <footer class="footer">
+        <div class="footer-columns">
+            <div class="footer-col">
+                <h4>Empresa</h4>
+                <a href="#">Sobre Nosotros</a>
+                <a href="#">Trabaja con Nosotros</a>
+                <a href="#">Sostenibilidad</a>
+            </div>
+            <div class="footer-col">
+                <h4>Atención al Cliente</h4>
+                <a href="#">Contacto</a>
+                <a href="#">Envíos</a>
+                <a href="#">Devoluciones</a>
+            </div>
+            <div class="footer-col">
+                <h4>Síguenos</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
